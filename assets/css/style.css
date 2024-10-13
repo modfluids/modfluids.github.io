@@ -1,0 +1,196 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('/assets/images/campus-background.jpg') no-repeat center center;
+    /* 设置背景图片 */
+    background-size: cover;
+    /* 背景图片覆盖整个页面 */
+    background-attachment: fixed;
+    /* 背景图片固定不动 */
+    color: #333;
+}
+
+/* Intro Section */
+#intro {
+    position: relative;
+    height: 100vh;
+    /* 占满整个浏览器窗口高度 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+    /* 确保小屏幕时不超出屏幕 */
+}
+
+#intro h1 {
+    font-size: 4em;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+}
+
+#intro p {
+    font-size: 1.5em;
+    font-style: italic;
+    margin-bottom: 1.5em;
+}
+
+.actions .button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #fff;
+    color: #333;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.actions .button:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+#intro .actions {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0%;
+    margin-top: 10px;
+}
+
+/* Header */
+#header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+}
+
+#header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+/* Navigation */
+#nav {
+    display: flex;
+    justify-content: flex-start;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 0;
+    position: sticky;
+    margin: 0 15%;
+    top: 0;
+    border-radius: 10px;
+    z-index: 10;
+    transition: background-color 0.3s;
+}
+
+#nav.sticky {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+#nav .links .active a {
+    color: #007BFF;
+    font-weight:bolder;
+}
+
+#nav .links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#nav .links li {
+    display: inline;
+    margin: 0 15px;
+}
+
+#nav .links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+#nav .links li a:hover {
+    color: #00a6ff;
+    /* 鼠标悬停时的颜色 */
+}
+
+#nav .icons {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+#nav .icons li {
+    display: inline;
+    margin-left: 10px;
+}
+
+#nav .icons li a {
+    color: white;
+    font-size: 1.5em;
+}
+
+/* Main Section Styling */
+#main {
+    padding: 5px 0;
+    /* 顶部和底部留白 */
+}
+
+.post {
+    padding: 20px;
+    /* 内部留白 */
+    margin: 0 15%;
+    /* 左右留白并居中对齐 */
+    background-color: rgba(255, 255, 255, 0.9);
+    /* 内容区域背景 */
+    border-radius: 10px;
+    /* 可选：内容区域圆角 */
+}
+
+#main h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#main ol {
+    line-height: 1.8;
+    font-size: 1.2em;
+}
+
+.image.main img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+/* Footer */
+#copyright {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+#copyright ul {
+    list-style: none;
+    padding: 0;
+}
+
+#copyright ul li {
+    display: inline;
+    margin: 0 10px;
+}
