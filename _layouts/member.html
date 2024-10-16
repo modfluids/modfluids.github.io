@@ -1,8 +1,8 @@
 ---
 layout: default
+permalink: /member/ 
 refactor: true
 ---
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -31,9 +31,9 @@ refactor: true
         <div id="intro">
             <h1>Modfluids</h1>
             <p>Ciallo～(∠・ω< )⌒☆</p>
-            <ul class="actions">
-                <a href="#nav" class="button icon solid solo fa-arrow-down scrolly">Continue</a>
-            </ul>
+                <ul class="actions">
+                    <a href="#nav" class="button icon solid solo fa-arrow-down scrolly">Continue</a>
+                </ul>
         </div>
 
         <!-- Header -->
@@ -44,14 +44,15 @@ refactor: true
         <!-- Nav -->
         <nav id="nav">
             <ul class="links">
-                <li class="active"><a href="{{ '/' | relative_url }}">Home</a></li>
-                <li><a href>Members</a></li>
-                <li><a href>Publications</a></li>
-                <li><a href>News</a></li>
+                <li><a href="{{ '/home.html' | relative_url }}">Home</a></li>
+                <li class="active"><a href="{{ '/' | relative_url }}">Members</a></li>
+                <li><a href="{{ '/elements.html' | relative_url }}">Publications</a></li>
+                <li><a href="{{ '/element.html' | relative_url }}">News</a></li>
             </ul>
             <ul class="icons">
                 <!-- <li><a href="#" class="icon brands fa-linkedin"><span class="label">Instagram</span></a></li> -->
-                <li><a href="https://github.com/modfluids" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                <li><a href="https://github.com/modfluids" class="icon brands fa-github"><span
+                            class="label">GitHub</span></a></li>
             </ul>
         </nav>
 
@@ -64,7 +65,7 @@ refactor: true
                 <!-- Text stuff -->
                 <h2>bh</h2>
                 <ol>
-                    《听雨》<br/>
+                    《听雨》<br />
                     从一大早就下起雨来。下雨，本来不是什么稀罕事儿。但这是春雨，俗话说：春雨贵似油。而且又在罕见的大旱之中，其珍贵就可想而知了。<br /><br />
                     “润物细无声”。春雨本来是声音极小极小的。但是，我现在坐在隔成了一间小房子的阳台上，顶上有块大铁皮。楼上滴下来的檐溜就打在这铁皮上．打出声音来，于是就不细无声了，按常理说，我坐在那里，同一种死文字拼命。本来应该需要极静极静的环境，才能安下心来。这种雨敲铁皮的声音应该是极为讨厌的，是必欲去之而后快的。<br /><br />
                     然而，事实却正相反。我静静地坐在那里。听到头顶上的雨滴声，此时有声胜无声，我心里感到无量的喜悦，仿佛饮了仙露，大有飘飘欲仙之概了。这声音时慢时急，时高时低，时响时沉。时断时续，有时如金声玉振，有时如黄针大吕。有时如大珠小珠落玉盘。有时如红珊白瑚沉海里，有时如弹素琴，有时加舞霹雳，有时如百鸟争鸣，有时如兔落鹘起，或浮想联翩，不能自已，心花怒放，风生笔底。死文字仿佛活了起来，我也仿佛又溢满了青春活力。我平生很少有这样的精神境界，更难为外人道也。<br /><br />
@@ -76,60 +77,60 @@ refactor: true
                 </ol>
 
         </div>
-<script>
-    document.querySelector('.scrolly').addEventListener('click', function (e) {
-        e.preventDefault();
+        <script>
+            document.querySelector('.scrolly').addEventListener('click', function (e) {
+                e.preventDefault();
 
-        const targetElement = document.querySelector('#nav');
-        const targetPosition = targetElement.getBoundingClientRect().top + window.scrollY;
-        const startPosition = window.scrollY;
-        const distance = targetPosition - startPosition;
-        const duration = 1500;
-        let startTime = null;
+                const targetElement = document.querySelector('#nav');
+                const targetPosition = targetElement.getBoundingClientRect().top + window.scrollY;
+                const startPosition = window.scrollY;
+                const distance = targetPosition - startPosition;
+                const duration = 1500;
+                let startTime = null;
 
-        function animation(currentTime) {
-            if (startTime === null) startTime = currentTime;
-            const timeElapsed = currentTime - startTime;
-            const run = ease(timeElapsed, startPosition, distance, duration);
-            window.scrollTo(0, run);
-            if (timeElapsed < duration) requestAnimationFrame(animation);
-        }
+                function animation(currentTime) {
+                    if (startTime === null) startTime = currentTime;
+                    const timeElapsed = currentTime - startTime;
+                    const run = ease(timeElapsed, startPosition, distance, duration);
+                    window.scrollTo(0, run);
+                    if (timeElapsed < duration) requestAnimationFrame(animation);
+                }
 
-        function ease(t, b, c, d) {
-            t /= d / 2;
-            if (t < 1) return c / 2 * t * t + b;
-            t--;
-            return -c / 2 * (t * (t - 2) - 1) + b;
-        }
+                function ease(t, b, c, d) {
+                    t /= d / 2;
+                    if (t < 1) return c / 2 * t * t + b;
+                    t--;
+                    return -c / 2 * (t * (t - 2) - 1) + b;
+                }
 
-        requestAnimationFrame(animation);
-    });
-    window.onscroll = function () {
-        var nav = document.getElementById("nav");
-        if (window.pageYOffset > 0) {
-            nav.classList.add("sticky");
-        } else {
-            nav.classList.remove("sticky");
-        }
-    };
-    window.addEventListener('scroll', function () {
-        const nav = document.getElementById('nav');
-        const main = document.getElementById('main');
-        const navHeight = nav.offsetHeight;
-        const scrollPosition = window.scrollY;
+                requestAnimationFrame(animation);
+            });
+            window.onscroll = function () {
+                var nav = document.getElementById("nav");
+                if (window.pageYOffset > 0) {
+                    nav.classList.add("sticky");
+                } else {
+                    nav.classList.remove("sticky");
+                }
+            };
+            window.addEventListener('scroll', function () {
+                const nav = document.getElementById('nav');
+                const main = document.getElementById('main');
+                const navHeight = nav.offsetHeight;
+                const scrollPosition = window.scrollY;
 
-        if (scrollPosition >= main.offsetTop - navHeight) {
-            const offset = scrollPosition - (main.offsetTop - navHeight) + 3;
-            main.style.maskImage = `linear-gradient(to bottom, transparent ${offset}px, black ${offset}px)`;
-        } else {
-            main.style.maskImage = 'none';
-        }
-    });
-
-
+                if (scrollPosition >= main.offsetTop - navHeight) {
+                    const offset = scrollPosition - (main.offsetTop - navHeight) + 3;
+                    main.style.maskImage = `linear-gradient(to bottom, transparent ${offset}px, black ${offset}px)`;
+                } else {
+                    main.style.maskImage = 'none';
+                }
+            });
 
 
-</script>
+
+
+        </script>
 
 </body>
 

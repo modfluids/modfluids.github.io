@@ -3,12 +3,9 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background: url('/assets/images/campus-background.jpg') no-repeat center center;
-    /* 设置背景图片 */
+    /* background: url('{{ "/assets/images/campus-background.jpg" | relative_url }}') no-repeat center center; */
     background-size: cover;
-    /* 背景图片覆盖整个页面 */
     background-attachment: fixed;
-    /* 背景图片固定不动 */
     color: #333;
 }
 
@@ -16,7 +13,6 @@ body {
 #intro {
     position: relative;
     height: 100vh;
-    /* 占满整个浏览器窗口高度 */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,7 +20,6 @@ body {
     text-align: center;
     color: white;
     padding: 0 20px;
-    /* 确保小屏幕时不超出屏幕 */
 }
 
 #intro h1 {
@@ -84,9 +79,10 @@ body {
 /* Navigation */
 #nav {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
     background: rgba(0, 0, 0, 0.7);
-    padding: 10px 0;
+    padding: 10px 2.5%;
     position: sticky;
     margin: 0 15%;
     top: 0;
@@ -108,11 +104,9 @@ body {
     list-style: none;
     padding: 0;
     display: flex;
-    justify-content: flex-start;
 }
 
 #nav .links li {
-    display: inline;
     margin: 0 15px;
 }
 
@@ -125,12 +119,12 @@ body {
 
 #nav .links li a:hover {
     color: #00a6ff;
-    /* 鼠标悬停时的颜色 */
 }
 
 #nav .icons {
-    display: inline-block;
-    margin-left: 15px;
+    display: flex;
+    list-style: none;
+    padding: 0;
 }
 
 #nav .icons li {
@@ -140,24 +134,27 @@ body {
 
 #nav .icons li a {
     color: white;
-    font-size: 1.5em;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+#nav .icons li a:hover {
+    color: #00a6ff;
 }
 
 /* Main Section Styling */
 #main {
     padding: 5px 0;
-    /* 顶部和底部留白 */
+    border-radius: 10px;
+    mask-image: none;
 }
 
 .post {
-    padding: 20px;
-    /* 内部留白 */
+    padding: 20px 5%;
     margin: 0 15%;
-    /* 左右留白并居中对齐 */
     background-color: rgba(255, 255, 255, 0.9);
-    /* 内容区域背景 */
     border-radius: 10px;
-    /* 可选：内容区域圆角 */
 }
 
 #main h2 {
