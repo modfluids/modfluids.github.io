@@ -1,6 +1,6 @@
 ---
 refactor: true
-title: Home
+title: member
 # front matter tells Jekyll to process Liquid
 ---
 
@@ -26,19 +26,19 @@ title: Home
     <div id="wrapper" class="fade-in">
 
         <!-- Intro -->
-        <div id="intro">
+        <div id="intro" style="height: 300px;">
             <h1>{{ site.title }}</h1>
             <p>{{ site.description }}</p>
             <ul class="actions">
-                <a href="#nav" class="button icon solid solo fa-arrow-down scrolly">Continue</a>
+                <!-- <a href="#nav" class="button icon solid solo fa-arrow-down scrolly">Continue</a> -->
             </ul>
         </div>
 
         <!-- Nav -->
         <nav id="nav">
             <ul class="links">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="{{ '/member' | relative_url }}">Members</a></li>
+                <li><a href="{{ '/' | relative_url }}">Home</a></li>
+                <li class="active"><a href="#">Members</a></li>
                 <li><a href="{{ '/publication' | relative_url }}">Publications</a></li>
                 <li><a href="{{ '/news' | relative_url }}">News</a></li>
             </ul>
@@ -52,7 +52,7 @@ title: Home
         <div id="main">
             <section class="post">
                 {% for post in site.posts %}
-                    {% if post.title == "home" %}
+                    {% if post.title == "member" %}
                     {{ post.content }}
                     {% endif %}
                 {% endfor %}
