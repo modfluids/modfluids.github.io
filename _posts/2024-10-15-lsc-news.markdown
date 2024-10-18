@@ -3,21 +3,13 @@ layout: news
 title: "news"
 description: Ciallo～(∠・ω< )⌒☆
 ---
+## 团队新闻
 
-# Team Introduction
+### 2024.03  
+**课程组傅文豪通过硕士学位论文答辩**  
+论文题目：基于自适应高阶过程的低压涡轮叶栅气动不确定性及鲁棒性设计研究
 
-## Teachers
+![答辩图片](path_to_image_1)  
+*（图片说明：傅文豪在答辩现场）*
 
-| Name           | Expertise                | Research Focus                | Profile Picture         |
-|----------------|--------------------------|-------------------------------|-------------------------|
-| Dr. Alice Smith| Educational Psychology    | Examines cognitive development in learning environments. | ![Alice Smith](path/to/alice.jpg) |
-| Dr. John Doe   | Curriculum Development     | Focuses on innovative teaching methods and curriculum design. | ![John Doe](path/to/john.jpg) |
-
-## Graduate Students
-
-| Name           | Research Focus          | Description                          | Profile Picture         |
-|----------------|-------------------------|-------------------------------------|-------------------------|
-| Emily Johnson   | Learning Analytics      | Investigates data-driven decision making in education. | ![Emily Johnson](path/to/emily.jpg) |
-| Michael Brown   | Instructional Design    | Designs interactive learning experiences to enhance engagement. | ![Michael Brown](path/to/michael.jpg) |
-| Sarah Davis     | Educational Technology   | Explores the integration of technology in classroom settings. | ![Sarah Davis](path/to/sarah.jpg) |
-| David Wilson    | Assessment Strategies   | Develops effective assessment tools to measure student outcomes. | ![David Wilson](path/to/david.jpg) |
+---
