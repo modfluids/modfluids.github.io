@@ -6,14 +6,14 @@ description: Look for energy
 
 # Team Introduction
 
-## Teachers
+## 
 
 | ![Binghua](path/to/Binghua.jpg) | ![Zhouteng](path/to/Zhouteng.jpg) |
 |-------------------------------------|---------------------------------|
-| **Dr. Binghua Li**                | **Dr. Zhouteng Ye**                |
-| *Expertise:* Fluid Mechanics | *Expertise:*  |
+| **Dr. Binghua Li**                | **Dr. Zhouteng Ye**               |
+| *Expertise:* Fluid Mechanics | *Expertise:*  Hydrodynamics|
 | *Research Focus:*                  | *Research Focus:*               |
-| Mode decomposition and tubulent flow control. | Focuses on the high performance cumputation. |
+| Modal analysis and tubulent flow control. | Focuses on the high performance computation of flow fields. |
 
 ---
 
