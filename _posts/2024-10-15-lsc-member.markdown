@@ -1,16 +1,18 @@
 ---
 layout: member
-title: "member"
-description: Look for energy
+title: "成员/People"
+description: Look for Energy
 ---
 
 # Team Introduction
 
 ## 
 
-| ![Binghua](assets/images/Binghua.png) | ![Zhouteng](path/to/Zhouteng.jpg) |
+| ![Binghua](/assets/images/Binghua.png) | ![Zhouteng](path/to/Zhouteng.jpg) |
 |-------------------------------------|---------------------------------|
+| **李炳华 博士**                     | **叶洲腾 博士**               |
 | **Dr. Binghua Li**                | **Dr. Zhouteng Ye**               |
+| *专业：* 流体力学 | *专业：*  水力学|
 | *Expertise:* Fluid Mechanics | *Expertise:*  Hydrodynamics|
 | *Research Focus:*                  | *Research Focus:*               |
 | Modal analysis and tubulent flow control. | Focuses on the high performance computation of flow fields. |
