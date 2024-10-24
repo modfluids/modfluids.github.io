@@ -8,7 +8,7 @@ description: Look for energy
 
 ## 
 
-| ![Binghua](path/to/Binghua.jpg) | ![Zhouteng](path/to/Zhouteng.jpg) |
+| ![Binghua](assets/images/Binghua.png) | ![Zhouteng](path/to/Zhouteng.jpg) |
 |-------------------------------------|---------------------------------|
 | **Dr. Binghua Li**                | **Dr. Zhouteng Ye**               |
 | *Expertise:* Fluid Mechanics | *Expertise:*  Hydrodynamics_TEST|
