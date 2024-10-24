@@ -11,7 +11,7 @@ description: Look for energy
 | ![Binghua](assets/images/Binghua.png) | ![Zhouteng](path/to/Zhouteng.jpg) |
 |-------------------------------------|---------------------------------|
 | **Dr. Binghua Li**                | **Dr. Zhouteng Ye**               |
-| *Expertise:* Fluid Mechanics | *Expertise:*  Hydrodynamics_TEST|
+| *Expertise:* Fluid Mechanics | *Expertise:*  Hydrodynamics|
 | *Research Focus:*                  | *Research Focus:*               |
 | Modal analysis and tubulent flow control. | Focuses on the high performance computation of flow fields. |
 
