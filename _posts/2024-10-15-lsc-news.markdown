@@ -5,11 +5,14 @@ description: Ciallo～(∠・ω< )⌒☆
 ---
 ## 团队新闻
 
-### 2024.03  
-**课程组傅文豪通过硕士学位论文答辩**  
-论文题目：基于自适应高阶过程的低压涡轮叶栅气动不确定性及鲁棒性设计研究
+### 2024.10  
+**李炳华博士参加2024 MEAE国际会议并做邀请报告**  
+报告题目：基于动态模态分解的大规模流场特征分析技术研究
+Report Title: Dynamic Mode Decomposition Based Algorithms as Feature Detection Techniques: Application to Large Flow Databases
 
-![答辩图片](path_to_image_1)  
-*（图片说明：傅文豪在答辩现场）*
+![报告现场](/assets/images/2024-10-MEAE2024.png)  
+*（图片说明：李炳华博士在报告现场）*
+![报告证书](/assets/images/2024-10-MEAE2024.png)  
+*（图片说明：邀请报告证书）*
 
 ---
