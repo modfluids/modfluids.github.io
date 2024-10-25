@@ -12,10 +12,7 @@ description: Ciallo～(∠・ω< )⌒☆
 
 Report Title: Dynamic Mode Decomposition Based Algorithms as Feature Detection Techniques: Application to Large Flow Databases
 
-<img src="/assets/images/2024-10-MEAE2024.png" width="20" height="20"/>
-*（图片说明：李炳华博士在报告现场）*
-
-![报告证书](/assets/images/2024-10-MEAE2024.png)  
-*（图片说明：邀请报告证书）*
+<img src="/assets/images/2024-10-MEAE2024-Report_Photo.jpg" width="300" height="200"/>
+<img src="/assets/images/2024-10-MEAE2024.png" width="285" height="200"/>
 
 ---
