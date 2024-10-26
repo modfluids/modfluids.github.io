@@ -8,7 +8,7 @@ description: Look for Energy
 
 ## Teacher
 
-| ![Binghua](/assets/images/Binghua.png) | ![Zhouteng](/assets/images/Binghua.png) |
+| <img src="/assets/images/Binghua.png" width="150" height="150"/> | <img src="/assets/images/Binghua.png" width="150" height="150"/> |
 |-------------------------------------|---------------------------------|
 | **李炳华 博士**                     | **叶洲腾 博士**               |
 | **Dr. Binghua Li**                | **Dr. Zhouteng Ye**               |
@@ -21,9 +21,10 @@ description: Look for Energy
 
 ## Graduate Students
 
-| ![Emily Johnson](/assets/images/Binghua.png) | ![Michael Brown](/assets/images/Binghua.png) | ![Sarah Davis](/assets/images/Binghua.png) | ![David Wilson](/assets/images/Binghua.png) |
+| <img src="/assets/images/Tianyuan.png" width="120" height="150"/> | <img src="/assets/images/Lulu.png" width="120" height="150"/> | <img src="/assets/images/Nan.png" width="120" height="150"/> | <img src="/assets/images/Shuaichao.png" width="120" height="150"/> | 
 |---------------------------------------|----------------------------------------|-------------------------------------|-------------------------------------|
-| **Tianyuan Gan**                     | **Lulu Zhang**                      | **Nan Zheng**                     | **Shuaichao Li**                    |
+| **甘天源**                             | **张璐璐**                              | **郑楠**                             | **李帅超**                           |
+| **Tianyuan Gan**                      | **Lulu Zhang**                         | **Nan Zheng**                       | **Shuaichao Li**                    |
 | *Research Focus:*                     | *Research Focus:*                      | *Research Focus:*                   | *Research Focus:*                   |
 | Learning Analytics                    | Instructional Design                   | Educational Technology               | Assessment Strategies                |
 | Investigates data-driven decision making in education. | Designs interactive learning experiences to enhance engagement. | Explores the integration of technology in classroom settings. | Develops effective assessment tools to measure student outcomes. |
