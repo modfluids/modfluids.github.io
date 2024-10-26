@@ -8,7 +8,7 @@ description: Look for Energy
 
 ## Teacher
 
-| <img src="/assets/images/Binghua.png" width="150" height="150"/> | <img src="/assets/images/Binghua.png" width="150" height="150"/> |
+| <img src="/assets/images/Binghua.png" width="150" height="150"/> | <img src="/assets/images/Zhouteng.png" width="124" height="150"/> |
 |-------------------------------------|---------------------------------|
 | **李炳华 博士**                     | **叶洲腾 博士**               |
 | **Dr. Binghua Li**                | **Dr. Zhouteng Ye**               |
