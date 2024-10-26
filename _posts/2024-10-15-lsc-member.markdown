@@ -8,7 +8,7 @@ description: Look for Energy
 
 ## Teacher
 
-| <img src="/assets/images/Binghua.png" width="150" height="150"/> | <img src="/assets/images/Zhouteng.png" width="124" height="150"/> |
+| <img src="/assets/images/Binghua.png" width="248" height="298"/> | <img src="/assets/images/Zhouteng.png" width="248" height="298"/> |
 |-------------------------------------|---------------------------------|
 | **李炳华 博士**                     | **叶洲腾 博士**               |
 | **Dr. Binghua Li**                | **Dr. Zhouteng Ye**               |
@@ -21,7 +21,7 @@ description: Look for Energy
 
 ## Graduate Students
 
-| <img src="/assets/images/Tianyuan.png" width="120" height="150"/> | <img src="/assets/images/Lulu.png" width="120" height="150"/> | <img src="/assets/images/Nan.png" width="120" height="150"/> | <img src="/assets/images/Shuaichao.png" width="120" height="150"/> | 
+| <img src="/assets/images/Tianyuan.png" width="241" height="306"/> | <img src="/assets/images/Lulu.png" width="240" height="300"/> | <img src="/assets/images/Nan.png" width="240" height="300"/> | <img src="/assets/images/Shuaichao.png" width="240" height="300"/> | 
 |---------------------------------------|----------------------------------------|-------------------------------------|-------------------------------------|
 | **甘天源**                             | **张璐璐**                              | **郑楠**                             | **李帅超**                           |
 | **Tianyuan Gan**                      | **Lulu Zhang**                         | **Nan Zheng**                       | **Shuaichao Li**                    |
