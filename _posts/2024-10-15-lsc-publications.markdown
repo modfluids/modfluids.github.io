@@ -1,13 +1,19 @@
 ---
-layout: publication
-title: "publication"
-description: Ciallo～(∠・ω< )⌒☆
+layout: Publication
+title: "Publication"
+description: All Footprints
 ---
 
+## 近五年论文成果：
+- Li, B., Garicano-Mena, J.*, & Valero, E. (2022). A dynamic mode decomposition technique for the analysis of non–uniformly sampled flow data. Journal of Computational Physics, 468, 111495.
+- Li, B., Garicano-Mena, J.*, Zheng, Y., & Valero, E. (2020). Dynamic mode decomposition analysis of spatially agglomerated flow databases. Energies, 13(9), 2134.
+- Li, B.*, Garicano-Mena, J. & Valero, E. (2020). Feature Extraction from Turbulent Channel Flow Databases via Composite DMD Analysis. Journal of Physics: Conference Series, 1522, 012008.
+- Garicano-Mena, J., Li, B.*, Ferrer E., and Valero E. (2019). A composite dynamic mode decomposition analysis of turbulent channel flows. Physics of Fluids, 31, no. 1: 115102.
+- Ye, Z., Estebe, C., Liu, Y., Vahab, M., Huang, Z., Sussman, M., Moradikazerouni, A., Shoele, K,. Lian, Y., Ohta, M., & Hussaini, M. Y. (2023). An Improved Coupled Level Set and Continuous Moment-of-Fluid Method for Simulating Multiphase Flows with Phase Change. Communications on Applied Mathematics and Computation, 1-36. 
+- Ye, Z. (2023). A comparative study of split advection algorithms on the moment-of-fluid (MOF) method for incompressible flow. Computers & Fluids, 255, 105815. 
+- Ye, Z., Shi, F., Zhao, X., Hu, Z., & Malej, M. (2021). A data-driven approach to modeling subgrid-scale shallow marsh hydrodynamics. Coastal Engineering, 166, 103856.
 
-然而，事实却正相反。我静静地坐在那里。听到头顶上的雨滴声，此时有声胜无声，我心里感到无量的喜悦，仿佛饮了仙露，大有飘飘欲仙之概了。这声音时慢时急，时高时低，时响时沉。时断时续，有时如金声玉振，有时如黄针大吕。有时如大珠小珠落玉盘。有时如红珊白瑚沉海里，有时如弹素琴，有时加舞霹雳，有时如百鸟争鸣，有时如兔落鹘起，或浮想联翩，不能自已，心花怒放，风生笔底。死文字仿佛活了起来，我也仿佛又溢满了青春活力。我平生很少有这样的精神境界，更难为外人道也。<br /><br />
-在中国，听雨本来是雅人的事。中国古代诗词中，关于听雨的作品是颇有一些的。最有名的二首听雨的词当然是宋代蒋捷的《虞关人》，词不长，我索性抄它一下：<br /><br />
-少年听雨歌楼上，红烛昏罗帐。壮年听雨客舟中，江阔云低，断雁叫西风。而今听雨僧庐下，鬓已星星也。恐欢离合总无情。一任阶前点滴到天明。<br /><br />
-蒋捷听雨时的心请，是颇为复杂的。他是用听雨这一件事来概括自己的一生的，从少年、壮年一直到老年，达到了悲欢离合总无情的境界。但是，古今对老的概念，有相当大的悬殊。他看来最老也不过五十岁左右，用今天的眼光看，他不过是介乎中老之间，用我自己比起来，我已经到了望九之年。要讲达到悲欢离合总无情的境界，我比他有资格。我已经能够纵浪大化中，不喜亦不惧了。<br /><br />
-可我为什么今天听雨竟也兴高采烈呢？这里面并没有多少雅味，我在这里完全是一个俗人。我想到的主要是麦子，是那辽阔原野上的青春的麦苗。我生在乡下，虽然六岁就离开，谈不上干什么农活，但是我拾过麦子，捡过豆子，割过青草，劈过高粱叶。我血管里流的是农民的血，一直到今天垂暮之年，毕生对农民和农村怀看深厚的感情。农民最高希望是多打粮食。天一旱，就威胁着庄稼的成长。即使我长期住在城里，下雨一少，我就望云霓，自谓焦急之情，决不下于农民。北方春天，十年九旱。今年似乎又早得邪行。我天天听天气预报，时时观察天上的云气。忧心如焚，徒唤奈何。在梦中也看到的是切雨蒙蒙。<br /><br />
-今天早晨，我的梦竟实现了。我坐在这长宽不过几尺的阳台上，听到头顶上的雨声，不禁神驰千里，心旷神怡。在大大小小高高低，有的方正有的歪斜的麦田里，每一个叶片都仿佛张开了小嘴，尽情地吮吸看甜甜的雨滴，有如天降廿露，本来有点黄萎的，现在变青了。本来是青的，现在更青了。宇宙间凭空添了一片温馨，一片祥和。<br /><br />
+## 往年论文成果：
+- Li, B.*, Huang, X. W., Zheng, Y., Xie, F. F., Wang, J., & Zou, J. F. (2018). Performance of flapping airfoil propulsion with LBM method and DMD analysis. Modern Physics Letters B, 32(12n13), 1840024.
+- Ye, Z., & Zhao, X. (2017). Investigation of water-water interface in dam break flow with a wet bed. Journal of Hydrology, 548, 104-120. 
+- Ye, Z., Zhao, X., & Deng, Z. (2016). Numerical investigation of the gate motion effect on a dam break flow. Journal of Marine Science and Technology, 21, 579-591. 
