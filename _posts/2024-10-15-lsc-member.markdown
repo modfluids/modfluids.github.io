@@ -8,7 +8,7 @@ description: Look for Energy
 
 ## 
 
-| ![Binghua](/assets/images/Binghua.png) | ![Zhouteng](path/to/Zhouteng.jpg) |
+| ![Binghua](/assets/images/Binghua.png) | ![Zhouteng](/assets/images/Binghua.png) |
 |-------------------------------------|---------------------------------|
 | **李炳华 博士**                     | **叶洲腾 博士**               |
 | **Dr. Binghua Li**                | **Dr. Zhouteng Ye**               |
@@ -21,7 +21,7 @@ description: Look for Energy
 
 ## Graduate Students
 
-| ![Emily Johnson](path/to/emily.jpg) | ![Michael Brown](path/to/michael.jpg) | ![Sarah Davis](path/to/sarah.jpg) | ![David Wilson](path/to/david.jpg) |
+| ![Emily Johnson](/assets/images/Binghua.png) | ![Michael Brown](/assets/images/Binghua.png) | ![Sarah Davis](/assets/images/Binghua.png) | ![David Wilson](/assets/images/Binghua.png) |
 |---------------------------------------|----------------------------------------|-------------------------------------|-------------------------------------|
 | **Tianyuan Gan**                     | **Lulu Zhang**                      | **Nan Zheng**                     | **Shuaichao Li**                    |
 | *Research Focus:*                     | *Research Focus:*                      | *Research Focus:*                   | *Research Focus:*                   |
