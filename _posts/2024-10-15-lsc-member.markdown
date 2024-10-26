@@ -1,6 +1,6 @@
 ---
 layout: member
-title: "成员/People"
+title: "member"
 description: Look for Energy
 ---
 
