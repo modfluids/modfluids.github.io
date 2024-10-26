@@ -6,7 +6,7 @@ description: Look for Energy
 
 # Team Introduction
 
-## 
+## Teacher
 
 | ![Binghua](/assets/images/Binghua.png) | ![Zhouteng](/assets/images/Binghua.png) |
 |-------------------------------------|---------------------------------|
