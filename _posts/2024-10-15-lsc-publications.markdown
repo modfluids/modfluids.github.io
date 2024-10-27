@@ -1,6 +1,6 @@
 ---
 layout: Publication
-title: "Publication"
+title: "Publications"
 description: All Footprints
 ---
 
