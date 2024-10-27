@@ -12,7 +12,7 @@ description: Happy hour and memories.
 
 <img class='news_photo' src="/assets/images/2024-10-yeparty1.jpg" />
 <img class='news_photo' src="/assets/images/2024-10-yeparty2.jpg" />
-<img class='news_photo' src="/assets/images/2024-10-yeparty3.jpg" />
+<img class='news_photo' src="/assets/images/2024-10-yeparty3.png" />
 
 ---
 
