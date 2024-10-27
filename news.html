@@ -62,38 +62,11 @@ title: member
     </div>
 
     <script>
-        document.querySelector('.scrolly').addEventListener('click', function (e) {
-            e.preventDefault();
-            const targetElement = document.querySelector('#nav');
-            const targetPosition = targetElement.getBoundingClientRect().top + window.scrollY;
-            const startPosition = window.scrollY;
-            const distance = targetPosition - startPosition;
-            const duration = 1500;
-            let startTime = null;
-
-            function animation(currentTime) {
-                if (startTime === null) startTime = currentTime;
-                const timeElapsed = currentTime - startTime;
-                const run = ease(timeElapsed, startPosition, distance, duration);
-                window.scrollTo(0, run);
-                if (timeElapsed < duration) requestAnimationFrame(animation);
-            }
-
-            function ease(t, b, c, d) {
-                t /= d / 2;
-                if (t < 1) return c / 2 * t * t + b;
-                t--;
-                return -c / 2 * (t * (t - 2) - 1) + b;
-            }
-
-            requestAnimationFrame(animation);
-        });
-
         window.onscroll = function () {
             var nav = document.getElementById("nav");
             if (window.pageYOffset > 0) {
+                console.log('asdasdad')
                 nav.classList.add("sticky");
-                nav.classList.add('background: rgba(0, 0, 0, 1.0);')
             } else {
                 nav.classList.remove("sticky");
             }
@@ -104,12 +77,11 @@ title: member
             const main = document.getElementById('main');
             const navHeight = nav.offsetHeight;
             const scrollPosition = window.scrollY;
-
             if (scrollPosition >= main.offsetTop - navHeight) {
                 const offset = scrollPosition - (main.offsetTop - navHeight) + 3;
-                main.style.maskImage = `linear-gradient(to bottom, transparent ${offset}px, black ${offset}px)`;
+                main.style.webkitMaskImage  = `linear-gradient(to bottom, transparent ${offset}px, black ${offset}px)`;
             } else {
-                main.style.maskImage = 'none';
+                main.style.webkitMaskImage  = 'none';
             }
         });
     </script>
