@@ -16,3 +16,15 @@ Report Title: Dynamic Mode Decomposition Based Algorithms as Feature Detection T
 <img src="/assets/images/2024-10-MEAE2024.png" width="285" height="200"/>
 
 ---
+
+### 2024.9 
+**李炳华团队 千年古刹径山寺一日游**  
+
+李炳华团队前往千年古刹径山寺，进行了一次丰富充实的一日游活动。
+在宁静的寺庙中，团队成员们领略了古老的建筑和自然风光，感受到了历史的厚重与文化的洗礼。
+本次活动不仅增进了团队凝聚力，还为接下来的科研工作注入了新的活力和灵感。
+
+<img src="/assets/images/2024-9-JingShan_Photo.jpg" height="300px" />
+<img src="/assets/images/2024-9-JingShan_Photo_2.jpg" height="200" width="auto"/>
+<img src="/assets/images/2024-9-JingShan_Photo_3.jpg" height="200" width="auto"/>
+
