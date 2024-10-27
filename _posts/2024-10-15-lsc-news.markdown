@@ -22,13 +22,7 @@ Report Title: Dynamic Mode Decomposition Based Algorithms as Feature Detection T
 
 夏末初秋，小组前往千年古刹径山寺进行了一次丰富充实的徒步秋游活动。
 
-<<<<<<< HEAD
 <img class='news_photo' src="/assets/images/2024-9-JingShan_Photo.jpg" />
 <img class='news_photo' src="/assets/images/2024-9-JingShan_Photo_2.jpg"/>
 <img class='news_photo' src="/assets/images/2024-9-JingShan_Photo_3.jpg"/>
 
-=======
-<img src="/assets/images/2024-9-JingShan_Photo.jpg" height="300px" />
-<img src="/assets/images/2024-9-JingShan_Photo_2.jpg" height="300" width="auto"/>
-<img src="/assets/images/2024-9-JingShan_Photo_3.jpg" height="300" width="auto"/>
->>>>>>> a7ebe534c677edca4a881c8427b372f1fa8502cb
