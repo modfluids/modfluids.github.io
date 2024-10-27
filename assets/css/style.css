@@ -36,6 +36,24 @@ body {
     margin-bottom: 1.5em;
 }
 
+.member_photo {
+    width: 125px;
+    height: auto;
+    float: left;
+}
+
+.teacher_photo {
+    width: 150px;
+    height: auto;
+    float: left;
+}
+
+.news_photo {
+    height: 150px;
+    /* width: 100px; */
+    /* : auto; */
+}
+
 .actions .button {
     display: inline-block;
     padding: 10px 20px;
@@ -158,9 +176,8 @@ body {
 }
 
 .post img {
-    max-height: 200px;
+    /* max-height: 200px; */
     max-width: 250px; 
-    height: auto;
 }
 
 #main h2 {

@@ -12,8 +12,8 @@ description: Ciallo～(∠・ω< )⌒☆
 
 Report Title: Dynamic Mode Decomposition Based Algorithms as Feature Detection Techniques: Application to Large Flow Databases
 
-<img src="/assets/images/2024-10-MEAE2024-Report_Photo.jpg" width="300" height="200"/>
-<img src="/assets/images/2024-10-MEAE2024.png" width="285" height="200"/>
+<img class='news_photo' src="/assets/images/2024-10-MEAE2024-Report_Photo.jpg" />
+<img class='news_photo' src="/assets/images/2024-10-MEAE2024.png" />
 
 ---
 
@@ -24,7 +24,7 @@ Report Title: Dynamic Mode Decomposition Based Algorithms as Feature Detection T
 在宁静的寺庙中，团队成员们领略了古老的建筑和自然风光，感受到了历史的厚重与文化的洗礼。
 本次活动不仅增进了团队凝聚力，还为接下来的科研工作注入了新的活力和灵感。
 
-<img src="/assets/images/2024-9-JingShan_Photo.jpg" height="300px" />
-<img src="/assets/images/2024-9-JingShan_Photo_2.jpg" height="200" width="auto"/>
-<img src="/assets/images/2024-9-JingShan_Photo_3.jpg" height="200" width="auto"/>
+<img class='news_photo' src="/assets/images/2024-9-JingShan_Photo.jpg" />
+<img class='news_photo' src="/assets/images/2024-9-JingShan_Photo_2.jpg"/>
+<img class='news_photo' src="/assets/images/2024-9-JingShan_Photo_3.jpg"/>
 
