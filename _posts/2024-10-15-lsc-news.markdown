@@ -1,7 +1,7 @@
 ---
 layout: news
 title: "News"
-description: Ciallo～(∠・ω< )⌒☆
+description: Happy hour and memories.
 ---
 ## 团队记事
 
