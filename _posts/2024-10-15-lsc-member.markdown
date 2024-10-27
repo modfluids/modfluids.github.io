@@ -4,9 +4,9 @@ title: "Members"
 description: Look for Energy
 ---
 
-# Team Introduction
+## 小组介绍/Team Introduction
 
-## Teacher
+### 老师/Teachers
 
 | <img class='teacher_photo' src="/assets/images/Binghua.png" /> | <img class='teacher_photo' src="/assets/images/Zhouteng.png" /> |
 |-------------------------------------|---------------------------------|
@@ -19,7 +19,7 @@ description: Look for Energy
 
 ---
 
-## Graduate Students
+### 学生/Students
 
 | <img class='member_photo' src="/assets/images/Tianyuan.png" /> | <img class='member_photo' src="/assets/images/Lulu.png" /> | <img class='member_photo' src="/assets/images/Nan.png" /> | <img class='member_photo' src="/assets/images/Shuaichao.png" /> | 
 |---------------------------------------|----------------------------------------|-------------------------------------|-------------------------------------|
