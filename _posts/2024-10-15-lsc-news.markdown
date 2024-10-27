@@ -5,7 +5,7 @@ description: Ciallo～(∠・ω< )⌒☆
 ---
 ## 团队记事
 
-### 2024.10  
+### 2024.10 @苏州太仓
 **李炳华博士参加2024 MEAE国际会议并做邀请报告**  
 
 报告题目：基于动态模态分解的大规模流场特征分析技术研究
@@ -17,14 +17,18 @@ Report Title: Dynamic Mode Decomposition Based Algorithms as Feature Detection T
 
 ---
 
-### 2024.9 
-**李炳华团队 千年古刹径山寺一日游**  
+### 2024.9 @杭州余杭径山
+**研究小组千年古刹径山寺一日游**  
 
-李炳华团队前往千年古刹径山寺，进行了一次丰富充实的一日游活动。
-在宁静的寺庙中，团队成员们领略了古老的建筑和自然风光，感受到了历史的厚重与文化的洗礼。
-本次活动不仅增进了团队凝聚力，还为接下来的科研工作注入了新的活力和灵感。
+夏末初秋，小组前往千年古刹径山寺进行了一次丰富充实的徒步秋游活动。
 
+<<<<<<< HEAD
 <img class='news_photo' src="/assets/images/2024-9-JingShan_Photo.jpg" />
 <img class='news_photo' src="/assets/images/2024-9-JingShan_Photo_2.jpg"/>
 <img class='news_photo' src="/assets/images/2024-9-JingShan_Photo_3.jpg"/>
 
+=======
+<img src="/assets/images/2024-9-JingShan_Photo.jpg" height="300px" />
+<img src="/assets/images/2024-9-JingShan_Photo_2.jpg" height="300" width="auto"/>
+<img src="/assets/images/2024-9-JingShan_Photo_3.jpg" height="300" width="auto"/>
+>>>>>>> a7ebe534c677edca4a881c8427b372f1fa8502cb
