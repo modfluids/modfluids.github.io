@@ -4,6 +4,9 @@ title: "Publications"
 description: All Footprints👣
 ---
 
+### 2024年：
+- 一种无人旋翼机动力单元故障诊断方法、系统和无人旋翼机，2024.11，ZL202411235100.2。
+
 ### 近五年论文成果：
 - Li, B., Garicano-Mena, J.*, & Valero, E. (2022). A dynamic mode decomposition technique for the analysis of non–uniformly sampled flow data. Journal of Computational Physics, 468, 111495.
 - Li, B., Garicano-Mena, J.*, Zheng, Y., & Valero, E. (2020). Dynamic mode decomposition analysis of spatially agglomerated flow databases. Energies, 13(9), 2134.
