@@ -12,10 +12,10 @@ description: Look for Energy
 |-------------------------------------|---------------------------------|
 | **李炳华 博士**                     | **叶洲腾 博士**               |
 | **Dr. Binghua Li**                | **Dr. Zhouteng Ye**               |
-| *专业：* 流体力学 | *专业：*  水力学|
-| *Expertise:* Fluid Mechanics | *Expertise:*  Hydrodynamics|
+| *专业：* 流体力学 | *专业：*  流体力学|
+| *Expertise:* Fluid Mechanics | *Expertise:*  Computational Fluid Dynamics, AI4CFD|
 | *Research Focus:*                  | *Research Focus:*               |
-| Modal analysis and tubulent flow control. | Focuses on the high performance computation of flow fields. |
+| Modal analysis and tubulent flow control. | Multi-phase flow and Physics informed machine learning. |
 
 ---
 
