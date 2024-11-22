@@ -5,6 +5,18 @@ description: Happy hour and memories.
 ---
 ## 团队记事
 
+### 2024.11 @意大利西西里岛
+**李帅超、张璐璐线上参加2024 ICSRS国际会议并做学术报告**  
+
+报告题目：基于层次化模态分析的再生现象下锂离子电池寿命预测
+
+Presentation Title: Capacity Prediction of Lithium-ion Batteries with Regeneration Phenomena Hierarchical Modal Analysis
+
+<img class='news_photo' src="/assets/images/2024-11-ICSRS-1.jpg" />
+<img class='news_photo' src="/assets/images/2024-11-ICSRS-2.jpg" />
+
+---
+
 ### 2024.10 @杭州良渚
 **研究小组秋日聚会**  
 
