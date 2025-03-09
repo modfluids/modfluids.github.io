@@ -8,6 +8,6 @@ description: Welcome！
 
 这是一个有趣有料的研究小组，充满了多才多艺的人和取之不尽的山、水、猫猫，他们在探索未知的世界不断碰撞、自由流浪！
 
-你既可以了解流体力学的广袤，又可以寻找各种利器雕刻它的形状。如背景Vincent van Gogh的《Wheat Field with Cypresses， 1889》，这是艺术与科技的碰撞，是想象与工程的联结！
+你既可以了解流体力学的广袤，又可以寻找各种利器雕刻它的形状。如背景Vincent van Gogh的《Wheat Field with Cypresses, 1889》，这是艺术与科技的碰撞，是想象与工程的联结！这就是ModFluids名称的由来，等待你来放纵玩耍。
 
 想了解更多，请随意探索！
