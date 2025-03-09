@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Members"
-description: Look for Energy
+description: Perseverance, Ambitious.
 ---
 
 ## 小组介绍/Team Introduction
@@ -15,7 +15,7 @@ description: Look for Energy
 | *专业：* 流体力学 | *专业：*  流体力学|
 | *Expertise:* Fluid Mechanics, AI4Science | *Expertise:*  Computational Fluid Dynamics, AI4CFD|
 | *Research Focus:*                  | *Research Focus:*               |
-| Modal analysis, Trbulent flow control. | Multi-phase flow, Physics informed machine learning. |
+| Modal analysis, Turbulent flow control. | Multi-phase flow, Physics informed machine learning. |
 
 ---
 
@@ -26,5 +26,5 @@ description: Look for Energy
 | **甘天源**                             | **张璐璐**                              | **郑楠**                             | **李帅超**                           |
 | **Tianyuan Gan**                      | **Lulu Zhang**                         | **Nan Zheng**                       | **Shuaichao Li**                    |
 | *Research Focus:*                     | *Research Focus:*                      | *Research Focus:*                   | *Research Focus:*                   |
-| Micro-blowing for drag reduction      | Joint drag reduction technology        | Causality analysis of flow modes    | Turbulence Interpretability based on ML 
+| **Micro-blowing for drag reduction**  |**Joint drag reduction technology**     |**Causality analysis of flow modes** |**Turbulence Interpretability based on ML** |
 | Undergraduate Uni.: NCHU(昌航)         | Undergraduate Uni.：DMU(大连海大)       | Undergraduate Uni.: BJTU(北交大)      | Undergraduate Uni.: BUAA(北航) |
