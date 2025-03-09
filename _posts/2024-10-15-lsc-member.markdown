@@ -15,7 +15,7 @@ description: Look for Energy
 | *专业：* 流体力学 | *专业：*  流体力学|
 | *Expertise:* Fluid Mechanics, AI4Science | *Expertise:*  Computational Fluid Dynamics, AI4CFD|
 | *Research Focus:*                  | *Research Focus:*               |
-| Modal analysis and turbulent flow control. | Multi-phase flow and Physics informed machine learning. |
+| Modal analysis, Trbulent flow control. | Multi-phase flow, Physics informed machine learning. |
 
 ---
 
@@ -26,5 +26,5 @@ description: Look for Energy
 | **甘天源**                             | **张璐璐**                              | **郑楠**                             | **李帅超**                           |
 | **Tianyuan Gan**                      | **Lulu Zhang**                         | **Nan Zheng**                       | **Shuaichao Li**                    |
 | *Research Focus:*                     | *Research Focus:*                      | *Research Focus:*                   | *Research Focus:*                   |
-| Micro-blowing to reduce drag                    | Combined resistance reduction technology with groove and ejection                  | Causality analysis of flow mode in various flow scenarios               | Turbulence Interpretability                |
-| Undergraduate university: NCHU | undergraduate school ：Dalian Maritime University ，DMU | Undergraduate university: bjtu | Undergraduate university: BUAA |
+| Micro-blowing for drag reduction      | Joint drag reduction technology        | Causality analysis of flow modes    | Turbulence Interpretability based on ML 
+| Undergraduate Uni.: NCHU(昌航)         | Undergraduate Uni.：DMU(大连海大)       | Undergraduate Uni.: BJTU(北交大)      | Undergraduate Uni.: BUAA(北航) |
