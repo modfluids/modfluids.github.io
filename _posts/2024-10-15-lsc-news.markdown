@@ -91,5 +91,5 @@ Report Title: Dynamic Mode Decomposition Based Algorithms as Feature Detection T
 趁着暑假间隙，前往新加坡国立大学拜访流体力学先驱 舒昌 教授，及南阳理工大学软物质力学青年才俊 令狐昌鸿 老师。
 
 <img class='news_photo' src="/assets/images/2024-7-Singapore_Photo.jpg" />
-<img class='news_photo' src="/assets/images/2024-7-Singapore_Photo_2.jpg"/>
-<img class='news_photo' src="/assets/images/2024-7-Singapore_Photo_3.jpg"/>
+<img class='news_photo' src="/assets/images/2024-7-Singapore_Photo1.jpg"/>
+<img class='news_photo' src="/assets/images/2024-7-Singapore_Photo2.jpg"/>
