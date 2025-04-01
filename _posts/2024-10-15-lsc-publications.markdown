@@ -7,7 +7,8 @@ description: All Footprints👣
 ### 近半年学术成果：
 - 一种用于多团队灾后修复性维修决策的深度Actor-Critic架 构系统，2025.02，ZL202411282244.3。
 - 一种无人旋翼机动力单元故障诊断方法、系统和无人旋翼机，2024.11，ZL202411235100.2。
-- Li, S.C., Zhang, L.L., Han, D.Y., **Li, B.***, Wang H.W., & Kang, R. (2024). Capacity Prediction of Lithium-ion Batteries with Regeneration Phenomena Based on Hierarchical Modal Analysis. ICSRS 2024. (EI indexed)
+- Han, D.Y., **Li, B.**, Kang R., Wang H.W., Liang Z.R., & Yu J.S. (2024). An Unknown Input Observer-Based Fault Diagnosis Method of eVTOL Under Closed-Loop Control. ICSRS 2024. (EI indexed) [[DOI](https://doi.org/10.1109/ICSRS63046.2024.10927427)]
+- Li, S.C., Zhang, L.L., Han, D.Y., **Li, B.***, Wang H.W., & Kang, R. (2024). Capacity Prediction of Lithium-ion Batteries with Regeneration Phenomena Based on Hierarchical Modal Analysis. ICSRS 2024. (EI indexed) [[DOI](https://doi.org/10.1109/ICSRS63046.2024.10927498)]
 
 ### 近五年论文成果：
 - **Li, B.**, Garicano-Mena, J.*, & Valero, E. (2022). A dynamic mode decomposition technique for the analysis of non–uniformly sampled flow data. Journal of Computational Physics, 468, 111495.
