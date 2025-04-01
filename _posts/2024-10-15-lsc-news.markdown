@@ -7,15 +7,19 @@ description: Happy hour and memories.
 
 ### 2025.03 @杭州校园
 
-领取青年教师基础班优秀学员荣誉（7/126）
+**领取青年教师基础班优秀学员荣誉（7/126）**
 
-Ref: https://h3i.buaa.edu.cn/info/1253/3075.htm
+[News: 2024-06](https://news.buaa.edu.cn/info/1005/62816.htm)
+
+[News: 2025-03](https://h3i.buaa.edu.cn/info/1253/3075.htm)
+
+(Long launch process!!!)
 
 ---
 
 ### 2025.01 @日本札幌
 
-前往北海道大学工学部交流
+**李炳华博士前往北海道大学工学部交流**
 
 邀约前往北海道大学工学部流体控制与计算流体力学实验室参观交流
 
@@ -26,9 +30,9 @@ Ref: https://h3i.buaa.edu.cn/info/1253/3075.htm
 
 ### 2024.12 @杭州黄龙
 
-参加杭州市低空经济产业联合会首届大会
+**李炳华博士参加杭州市低空经济产业联合会首届大会**
 
-作为会员代表参加低空经济大会，关于无人机全生命周期的产学研盛会
+作为会员代表参加低空经济大会，感受关于无人机全生命周期的产学研热度
 
 <img class='news_photo' src="/assets/images/2024-12-1.jpg" />
 <img class='news_photo' src="/assets/images/2024-12-2.jpg" />
@@ -79,3 +83,13 @@ Report Title: Dynamic Mode Decomposition Based Algorithms as Feature Detection T
 <img class='news_photo' src="/assets/images/2024-9-JingShan_Photo_2.jpg"/>
 <img class='news_photo' src="/assets/images/2024-9-JingShan_Photo_3.jpg"/>
 
+---
+
+### 2024.7 @新加坡
+**李炳华博士前往新加坡做学术交流**  
+
+趁着暑假间隙，前往新加坡国立大学拜访流体力学先驱 舒昌 教授，及南阳理工大学软物质力学青年才俊 令狐昌鸿 老师。
+
+<img class='news_photo' src="/assets/images/2024-7-Singapore_Photo.jpg" />
+<img class='news_photo' src="/assets/images/2024-7-Singapore_Photo_2.jpg"/>
+<img class='news_photo' src="/assets/images/2024-7-Singapore_Photo_3.jpg"/>
