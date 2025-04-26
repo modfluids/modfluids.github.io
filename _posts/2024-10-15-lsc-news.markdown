@@ -13,7 +13,6 @@ description: Happy hour and memories.
 
 <img class='news_photo' src="/assets/images/2025-2-1.jpg" />
 <img class='news_photo' src="/assets/images/2025-2-2.jpg" />
-<img class='news_photo' src="/assets/images/2025-2-3.jpg" />
 
 ---
 
