@@ -11,8 +11,8 @@ description: Happy hour and memories.
 
 小组全员相聚北京，领略顶刊办顶会的风采。了解空天领域最前沿，开拓研究合作新思路。[SAC-News](https://h3i.buaa.edu.cn/info/1707/3175.htm)
 
-<img class='news_photo' src="/assets/images/2025-2-2.jpg" />
-<img class='news_photo' src="/assets/images/2025-2-3.jpg" />
+<img class='news_photo' src="/assets/images/2025-04-AFC-1.jpg" />
+<img class='news_photo' src="/assets/images/2025-04-AFC-2.jpg" />
 
 ---
 
