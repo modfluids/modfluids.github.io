@@ -5,6 +5,18 @@ description: Happy hour and memories.
 ---
 ## 团队记事
 
+### 2025.05@杭州瓶窑
+
+**小组邀请浙江大学谢芳芳副教授来国新院交流报告**
+
+李炳华、陈松老师邀请浙大飞推所副所长、国家级青年人才谢芳芳老师来访智慧民航科创中心，分享《机器学习赋能飞行器流动建模、优化和控制》精彩报告，并参观仿生飞行器、跨介质飞行器、航空大数据实验室，碰撞关于AI4Fluids的深度合作领域。
+
+<img class='news_photo' src="/assets/images/2025-05-15-1.jpg" />
+<img class='news_photo' src="/assets/images/2025-05-15-2.jpg" />
+<img class='news_photo' src="/assets/images/2025-05-15-3.jpg" />
+
+---
+
 ### 2025.05@杭州西湖
 
 **课题组全员受邀前往西湖大学范迪夏实验室参访交流**
