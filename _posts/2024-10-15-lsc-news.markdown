@@ -23,9 +23,9 @@ description: Happy hour and memories.
 
 月度小组活动，全体小组和外援老师们一同前往青山湖环线徒步并欢乐聚餐。
 
-<img class='news_photo' src="/assets/images/2025-05-24-1.jpg" />
-<img class='news_photo' src="/assets/images/2025-05-24-2.jpg" />
 <img class='news_photo' src="/assets/images/2025-05-24-3.jpg" />
+<img class='news_photo' src="/assets/images/2025-05-24-2.jpg" />
+<img class='news_photo' src="/assets/images/2025-05-24-1.jpg" />
 
 ---
 
