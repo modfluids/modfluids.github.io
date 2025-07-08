@@ -8,14 +8,14 @@ description: Perseverance, Ambitious.
 
 ### 老师/Teachers
 
-| <img class='teacher_photo' src="/assets/images/Binghua.png" /> | <img class='teacher_photo' src="/assets/images/Zhouteng.png" /> |
-|-------------------------------------|---------------------------------|
-| **李炳华 博士**                     | **叶洲腾 博士**               |
-| **Dr. Binghua Li**                | **Dr. Zhouteng Ye**               |
-| *专业：* 流体力学 | *专业：*  流体力学|
-| *Expertise:* Fluid Mechanics, AI4Science | *Expertise:*  Computational Fluid Dynamics, AI4CFD|
-| *Research Focus:*                  | *Research Focus:*               |
-| Modal analysis, Turbulent flow control. | Multi-phase flow, Physics informed machine learning. |
+| <img class='teacher_photo' src="/assets/images/Binghua.png" /> | <img class='teacher_photo' src="/assets/images/Zhouteng.png" /> | <img class='teacher_photo' src="/assets/images/Xiaofeng.png" /> |
+|-------------------------------------|---------------------------------|---------------------------------|
+| **李炳华 博士**                     | **叶洲腾 博士**               | **陈小峰 博士**               |
+| **Dr. Binghua Li**                | **Dr. Zhouteng Ye**               | **Dr. Xiaofeng Chen**               |
+| *专业：* 流体力学 | *专业：*  流体力学| *专业：*  流体力学|
+| *Expertise:* Fluid Mechanics, AI4Science | *Expertise:*  Computational Fluid Dynamics, AI4CFD| *Expertise:*  Computational Fluid Dynamics, AI4CFD|
+| *Research Focus:*                  | *Research Focus:*               | *Research Focus:*               |
+| Modal analysis, Turbulent flow control. | Multi-phase flow, Physics informed machine learning. | Multi-phase flow, Physics informed machine learning. |
 
 ---
 
@@ -32,9 +32,9 @@ description: Perseverance, Ambitious.
 
 #### 2025级
 
-| <img class='member_photo' src="/assets/images/shiqi.png" /> | <img class='member_photo' src="/assets/images/yutong.png" /> | <img class='member_photo' src="/assets/images/kangyi.png" /> | <img class='member_photo' src="/assets/images/zeyu.png" /> | <img class='member_photo' src="/assets/images/yinlong.png" /> |
+| <img class='member_photo' src="/assets/images/yinlong.png" /> | <img class='member_photo' src="/assets/images/shiqi.png" /> | <img class='member_photo' src="/assets/images/kangyi.png" /> | <img class='member_photo' src="/assets/images/zeyu.png" /> | <img class='member_photo' src="/assets/images/yutong.png" /> |
 | ----------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------------------------------- | ------------------------------------------------------------ |
-| **张诗奇**                                                  | **刘雨桐**                                                   | **郭康仪**                                                   | **陈泽宇**                                                 | **李垠龙**                                                   |
-| **Shiqi Zhang**                                             | **Yutong Liu**                                               | **Kangyi Guo**                                               | **Zeyu Chen**                                              | **Yinlong Li**                                               |
+| **李垠龙**                                                  | **张诗奇**                                                   | **郭康仪**                                                   | **陈泽宇**                                                 | **刘雨桐**                                                   |
+| **Yinlong Li**                                             | **Shiqi Zhang**                                               | **Kangyi Guo**                                               | **Zeyu Chen**                                              | **Yutong Liu**                                               |
 | *Research Focus:*                                           | *Research Focus:*                                            | *Research Focus:*                                            | *Research Focus:*                                          | *Research Focus:*                                            |
 | **TBA**                                                     | **TBA**                                                      | **TBA**                                                      | **TBA**                                                    | **TBA**                                                      |
