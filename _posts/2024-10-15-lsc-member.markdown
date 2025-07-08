@@ -13,9 +13,9 @@ description: Perseverance, Ambitious.
 | **李炳华 博士**                     | **叶洲腾 博士**               | **陈小峰 博士**               |
 | **Dr. Binghua Li**                | **Dr. Zhouteng Ye**               | **Dr. Xiaofeng Chen**               |
 | *专业：* 流体力学 | *专业：*  流体力学| *专业：*  流体力学|
-| *Expertise:* Fluid Mechanics, AI4Science | *Expertise:*  Computational Fluid Dynamics, AI4CFD| *Expertise:*  Computational Fluid Dynamics, AI4CFD|
+| *Expertise:* Fluid Mechanics, AI4Science | *Expertise:*  Computational Fluid Dynamics, AI4CFD| *Expertise:*  Computational Fluid Dynamics, Fire Dynamics|
 | *Research Focus:*                  | *Research Focus:*               | *Research Focus:*               |
-| <td align="center">Modal analysis, <br>Turbulent flow control. </td> | <td align="center">Multi-phase flow, <br>Physics informed machine learning.  </td> | <td align="center">Multi-phase flow, <br>Physics informed machine learning. </td> |
+| Modal analysis, <br>Turbulent flow control. | Multi-phase flow, <br>Physics informed machine learning. | Architecture fire safety, <br>Smoke flow control. |
 
 ---
 
@@ -28,7 +28,7 @@ description: Perseverance, Ambitious.
 | **甘天源**                             | **张璐璐**                              | **郑楠**                             | **李帅超**                           |
 | **Tianyuan Gan**                      | **Lulu Zhang**                         | **Nan Zheng**                       | **Shuaichao Li**                    |
 | *Research Focus:*                     | *Research Focus:*                      | *Research Focus:*                   | *Research Focus:*                   |
-| <td align="center">**Micro-blowing for<br> drag reduction** </td> | <td align="center">**Joint drag <br>reduction technology** </td> | <td align="center">**Causality analysis <br>of flow modes** </td> | <td align="center">**Turbulence Interpretability<br> based on ML** </td> |
+| **Micro-blowing for<br> drag reduction** | **Joint drag <br>reduction technology** | **Causality analysis <br>of flow modes** | **Turbulence Interpretability<br> based on ML** |
 
 #### 2025级
 
