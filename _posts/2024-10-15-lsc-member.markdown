@@ -28,7 +28,7 @@ description: Perseverance, Ambitious.
 | **甘天源**                             | **张璐璐**                              | **郑楠**                             | **李帅超**                           |
 | **Tianyuan Gan**                      | **Lulu Zhang**                         | **Nan Zheng**                       | **Shuaichao Li**                    |
 | *Research Focus:*                     | *Research Focus:*                      | *Research Focus:*                   | *Research Focus:*                   |
-| **Micro-blowing for<br> drag reduction** | **Joint drag <br>reduction technology** | **Causality analysis <br>of flow modes** | **Turbulence Interpretability<br> based on ML** |
+| **Micro-blowing for<br>   drag reduction** | **   Joint drag    <br>reduction technology** | **Causality analysis of<br>  flow modes** | **Turbulence Interpretability<br>    based on ML** |
 
 #### 2025级
 
