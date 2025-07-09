@@ -17,6 +17,125 @@ title: member
             background-size: cover;
             background-attachment: fixed;
         }
+        /* ==== MEMBER PAGE SPECIFIC STYLES ==== */
+        /* These styles are specific to the members page and extend the main CSS */
+        
+        /* Team Member Cards */
+        .member-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin: 30px 0;
+        }
+
+        .member-card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        .member-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            border-color: #007BFF;
+        }
+
+        .teacher-card {
+            background: white;
+            color: #333;
+        }
+
+        .teacher-card h5 {
+            color: #333;
+        }
+
+        .member-photo {
+            width: 125px;
+            height: auto;
+            object-fit: cover;
+            margin: 0 auto 15px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            transition: border-color 0.3s ease, opacity 0.3s ease;
+            opacity: 0;
+            background-color: #f8f9fa;
+        }
+
+        .member-photo.loaded {
+            opacity: 1;
+        }
+
+        .teacher-photo {
+            width: 150px;
+            height: auto;
+            object-fit: cover;
+            margin: 0 auto 15px;
+            border: 2px solid #007BFF;
+            border-radius: 8px;
+            transition: opacity 0.3s ease;
+            opacity: 0;
+            background-color: #f8f9fa;
+        }
+
+        .teacher-photo.loaded {
+            opacity: 1;
+        }
+
+        /* Loading skeleton animation */
+        .photo-skeleton {
+            background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+            background-size: 200% 100%;
+            animation: loading 1.5s infinite;
+        }
+
+        @keyframes loading {
+            0% { background-position: 200% 0; }
+            100% { background-position: -200% 0; }
+        }
+
+        .member-card h5 {
+            font-size: 1.3em;
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .member-card h6 {
+            font-size: 1.1em;
+            margin: 5px 0;
+            color: #333;
+            font-weight: normal;
+        }
+
+        .member-card p {
+            font-size: 0.9em;
+            margin: 8px 0;
+            line-height: 1.4;
+            color: #333;
+        }
+
+        .research-focus {
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .teacher-card .research-focus {
+            border-top-color: #eee;
+            color: #333;
+        }
+
+        /* Responsive Design for Member Cards */
+        @media (max-width: 768px) {
+            .member-grid {
+                grid-template-columns: 1fr;
+            }
+        }
     </style>
 </head>
 
@@ -25,21 +144,13 @@ title: member
     <!-- Wrapper -->
     <div id="wrapper" class="fade-in">
 
-        <!-- Intro -->
-        <div id="intro" style="height: 300px;">
-            <h1>{{ site.title }}</h1>
-            <p> {% for post in site.posts %}
-                    {% if post.title == "Members" %}
-                    {{ post.description }}
-                    {% endif %}
-                {% endfor %}
-            </p>
-            <ul class="actions">
-                <!-- <a href="#nav" class="button icon solid solo fa-arrow-down scrolly">Continue</a> -->
-            </ul>
+        <!-- Intro Section -->
+        <div id="intro">
+            <h1>{{ site.title | default: "Research Team" }}</h1>
+            <p>{{ page.description }}</p>
         </div>
 
-        <!-- Nav -->
+        <!-- Navigation -->
         <nav id="nav">
             <ul class="links">
                 <li><a href="{{ '/' | relative_url }}">主页/Home</a></li>
@@ -48,49 +159,408 @@ title: member
                 <li><a href="{{ '/news' | relative_url }}">记事/News</a></li>
             </ul>
             <ul class="icons">
-                <li><a href="https://github.com/modfluids" class="icon brands fa-github"><span
-                            class="label">GitHub</span></a></li>
+                <li><a href="https://github.com/modfluids">GitHub</a></li>
             </ul>
         </nav>
 
-        <!-- Main Content -->
-        <div id="main">
-            <section class="post">
-                {% for post in site.posts %}
-                    {% if post.title == "Members" %}
-                    {{ post.content }}
-                    {% endif %}
-                {% endfor %}
-            </section>
-        </div>
+        
+        
 
     </div>
 
+    <!-- Main Content -->
+    <div id="main">
+        <section class="post">
+            <h2>小组介绍/Team Introduction</h2>
+            
+            <!-- ========== TEACHERS SECTION ========== -->
+            <!-- To modify teachers: Update the teacher cards below -->
+            <!-- Each teacher card should include: photo, Chinese name, English name, expertise, research focus -->
+            
+            <h3>老师/Teachers</h3>
+            <div class="member-grid">
+                
+                <!-- Teacher 1: Dr. Binghua Li -->
+                <div class="member-card teacher-card">
+                    <img class="teacher-photo photo-skeleton" 
+                        src="{{ '/assets/images/Binghua.png' | relative_url }}" 
+                        alt="Dr. Binghua Li" 
+                        loading="lazy" />
+                    <h5>李炳华 博士</h5>
+                    <h6>Dr. Binghua Li</h6>
+                    <p><strong>专业:</strong> 流体力学</p>
+                    <p><strong>Expertise:</strong> Fluid Mechanics, AI4Science</p>
+                    <p class="research-focus">Research Focus:</p>
+                    <p>Modal analysis,<br>Turbulent flow control.</p>
+                </div>
+                
+                <!-- Teacher 2: Dr. Zhouteng Ye -->
+                <div class="member-card teacher-card">
+                    <img class="teacher-photo photo-skeleton" 
+                        src="{{ '/assets/images/Zhouteng.png' | relative_url }}" 
+                        alt="Dr. Zhouteng Ye" 
+                        loading="lazy" />
+                    <h5>叶洲腾 博士</h5>
+                    <h6>Dr. Zhouteng Ye</h6>
+                    <p><strong>专业:</strong> 流体力学</p>
+                    <p><strong>Expertise:</strong> Computational Fluid Dynamics, AI4CFD</p>
+                    <p class="research-focus">Research Focus:</p>
+                    <p>Multi-phase flow,<br>Physics informed machine learning.</p>
+                </div>
+                
+                <!-- Teacher 3: Dr. Xiaofeng Chen -->
+                <div class="member-card teacher-card">
+                    <img class="teacher-photo photo-skeleton" 
+                        src="{{ '/assets/images/Xiaofeng.png' | relative_url }}" 
+                        alt="Dr. Xiaofeng Chen" 
+                        loading="lazy" />
+                    <h5>陈小峰 博士</h5>
+                    <h6>Dr. Xiaofeng Chen</h6>
+                    <p><strong>专业:</strong> 流体力学</p>
+                    <p><strong>Expertise:</strong> Computational Fluid Dynamics, Fire Dynamics</p>
+                    <p class="research-focus">Research Focus:</p>
+                    <p>Architecture fire safety,<br>Smoke flow control.</p>
+                </div>
+                
+                <!-- TO ADD NEW TEACHERS: Copy the template below and modify accordingly -->
+                <!--
+                <div class="member-card teacher-card">
+                    <img class="teacher-photo photo-skeleton" 
+                        src="{{ '/assets/images/NEW_TEACHER_PHOTO.png' | relative_url }}" 
+                        alt="Dr. New Teacher Name" 
+                        loading="lazy" />
+                    <h5>新老师中文名 博士</h5>
+                    <h6>Dr. New Teacher English Name</h6>
+                    <p><strong>专业:</strong> 专业领域</p>
+                    <p><strong>Expertise:</strong> Research Area, Specialization</p>
+                    <p class="research-focus">Research Focus:</p>
+                    <p>Research focus line 1,<br>Research focus line 2.</p>
+                </div>
+                -->
+                
+            </div>
+
+            <!-- ========== STUDENTS SECTION ========== -->
+            <!-- To modify students: Update the student cards below -->
+            <!-- Each student card should include: photo, Chinese name, English name, research focus -->
+            
+            <h3>学生/Students</h3>
+            
+            <!-- 2024级 Students -->
+            <h4>2024级</h4>
+            <div class="member-grid">
+                
+                <!-- Student 1: Tianyuan Gan -->
+                <div class="member-card">
+                    <img class="member-photo photo-skeleton" 
+                        src="{{ '/assets/images/Tianyuan.png' | relative_url }}" 
+                        alt="Tianyuan Gan" 
+                        loading="lazy" />
+                    <h5>甘天源</h5>
+                    <h6>Tianyuan Gan</h6>
+                    <p class="research-focus">Research Focus:</p>
+                    <p>Micro-blowing for<br>drag reduction</p>
+                </div>
+                
+                <!-- Student 2: Lulu Zhang -->
+                <div class="member-card">
+                    <img class="member-photo photo-skeleton" 
+                        src="{{ '/assets/images/Lulu.png' | relative_url }}" 
+                        alt="Lulu Zhang" 
+                        loading="lazy" />
+                    <h5>张璐璐</h5>
+                    <h6>Lulu Zhang</h6>
+                    <p class="research-focus">Research Focus:</p>
+                    <p>Joint drag<br>reduction technology</p>
+                </div>
+                
+                <!-- Student 3: Nan Zheng -->
+                <div class="member-card">
+                    <img class="member-photo photo-skeleton" 
+                        src="{{ '/assets/images/Nan.png' | relative_url }}" 
+                        alt="Nan Zheng" 
+                        loading="lazy" />
+                    <h5>郑楠</h5>
+                    <h6>Nan Zheng</h6>
+                    <p class="research-focus">Research Focus:</p>
+                    <p>Causality analysis of<br>flow modes</p>
+                </div>
+                
+                <!-- Student 4: Shuaichao Li -->
+                <div class="member-card">
+                    <img class="member-photo photo-skeleton" 
+                        src="{{ '/assets/images/Shuaichao.png' | relative_url }}" 
+                        alt="Shuaichao Li" 
+                        loading="lazy" />
+                    <h5>李帅超</h5>
+                    <h6>Shuaichao Li</h6>
+                    <p class="research-focus">Research Focus:</p>
+                    <p>Turbulence Interpretability<br>based on ML</p>
+                </div>
+                
+                <!-- TO ADD NEW 2024级 STUDENTS: Copy the template below and modify accordingly -->
+                <!--
+                <div class="member-card">
+                    <img class="member-photo photo-skeleton" 
+                        src="{{ '/assets/images/NEW_STUDENT_PHOTO.png' | relative_url }}" 
+                        alt="New Student Name" 
+                        loading="lazy" />
+                    <h5>新学生中文名</h5>
+                    <h6>New Student English Name</h6>
+                    <p class="research-focus">Research Focus:</p>
+                    <p>Research focus description</p>
+                </div>
+                -->
+                
+            </div>
+
+            <!-- 2025级 Students -->
+            <h4>2025级</h4>
+            <div class="member-grid">
+                
+                <!-- Student 1: Yinlong Li -->
+                <div class="member-card">
+                    <img class="member-photo photo-skeleton" 
+                        src="{{ '/assets/images/yinlong.png' | relative_url }}" 
+                        alt="Yinlong Li" 
+                        loading="lazy" />
+                    <h5>李垠龙</h5>
+                    <h6>Yinlong Li</h6>
+                    <p class="research-focus">Research Focus:</p>
+                    <p>TBA</p>
+                </div>
+                
+                <!-- Student 2: Shiqi Zhang -->
+                <div class="member-card">
+                    <img class="member-photo photo-skeleton" 
+                        src="{{ '/assets/images/shiqi.png' | relative_url }}" 
+                        alt="Shiqi Zhang" 
+                        loading="lazy" />
+                    <h5>张诗奇</h5>
+                    <h6>Shiqi Zhang</h6>
+                    <p class="research-focus">Research Focus:</p>
+                    <p>TBA</p>
+                </div>
+                
+                <!-- Student 3: Kangyi Guo -->
+                <div class="member-card">
+                    <img class="member-photo photo-skeleton" 
+                        src="{{ '/assets/images/kangyi.png' | relative_url }}" 
+                        alt="Kangyi Guo" 
+                        loading="lazy" />
+                    <h5>郭康仪</h5>
+                    <h6>Kangyi Guo</h6>
+                    <p class="research-focus">Research Focus:</p>
+                    <p>TBA</p>
+                </div>
+                
+                <!-- Student 4: Zeyu Chen -->
+                <div class="member-card">
+                    <img class="member-photo photo-skeleton" 
+                        src="{{ '/assets/images/zeyu.png' | relative_url }}" 
+                        alt="Zeyu Chen" 
+                        loading="lazy" />
+                    <h5>陈泽宇</h5>
+                    <h6>Zeyu Chen</h6>
+                    <p class="research-focus">Research Focus:</p>
+                    <p>TBA</p>
+                </div>
+                
+                <!-- Student 5: Yutong Liu -->
+                <div class="member-card">
+                    <img class="member-photo photo-skeleton" 
+                        src="{{ '/assets/images/yutong.png' | relative_url }}" 
+                        alt="Yutong Liu" 
+                        loading="lazy" />
+                    <h5>刘雨桐</h5>
+                    <h6>Yutong Liu</h6>
+                    <p class="research-focus">Research Focus:</p>
+                    <p>TBA</p>
+                </div>
+                
+                <!-- TO ADD NEW 2025级 STUDENTS: Copy the template below and modify accordingly -->
+                <!--
+                <div class="member-card">
+                    <img class="member-photo photo-skeleton" 
+                        src="{{ '/assets/images/NEW_STUDENT_PHOTO.png' | relative_url }}" 
+                        alt="New Student Name" 
+                        loading="lazy" />
+                    <h5>新学生中文名</h5>
+                    <h6>New Student English Name</h6>
+                    <p class="research-focus">Research Focus:</p>
+                    <p>Research focus description</p>
+                </div>
+                -->
+                
+            </div>
+
+            <!-- TO ADD NEW GRADUATION YEAR: Copy the template below and modify accordingly -->
+            <!--
+            <h4>202X级</h4>
+            <div class="member-grid">
+                Add student cards here using the student template above
+            </div>
+            -->
+            
+        </section>
+    </div>
+    
     <script>
+    // ========== JAVASCRIPT FOR MEMBER PAGE FUNCTIONALITY ==========
+        // This script handles navigation, animations, and image loading
+        
+        // Sticky navigation functionality
         window.onscroll = function () {
             var nav = document.getElementById("nav");
             if (window.pageYOffset > 0) {
-                console.log('asdasdad')
                 nav.classList.add("sticky");
             } else {
                 nav.classList.remove("sticky");
             }
         };
 
-        window.addEventListener('scroll', function () {
-            const nav = document.getElementById('nav');
-            const main = document.getElementById('main');
-            const navHeight = nav.offsetHeight;
-            const scrollPosition = window.scrollY;
-            if (scrollPosition >= main.offsetTop - navHeight) {
-                const offset = scrollPosition - (main.offsetTop - navHeight) + 3;
-                main.style.webkitMaskImage = `linear-gradient(to bottom, transparent ${offset}px, black ${offset}px)`;
-            } else {
-                main.style.webkitMaskImage = 'none';
-            }
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
         });
+
+        // Add fade-in animation on scroll
+        function fadeInOnScroll() {
+            const elements = document.querySelectorAll('.member-card');
+            elements.forEach(element => {
+                const elementTop = element.getBoundingClientRect().top;
+                const elementVisible = 150;
+                
+                if (elementTop < window.innerHeight - elementVisible) {
+                    element.style.opacity = '1';
+                    element.style.transform = 'translateY(0)';
+                }
+            });
+        }
+
+        // Initialize fade-in styles
+        document.querySelectorAll('.member-card').forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(20px)';
+            card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        });
+
+        window.addEventListener('scroll', fadeInOnScroll);
+        window.addEventListener('load', fadeInOnScroll);
+
+        // Optimized image loading with lazy loading
+        function initImageLoading() {
+            const images = document.querySelectorAll('img[loading="lazy"]');
+            
+            // Intersection Observer for better lazy loading control
+            const imageObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const img = entry.target;
+                        loadImage(img);
+                        observer.unobserve(img);
+                    }
+                });
+            }, {
+                rootMargin: '50px 0px' // Start loading 50px before the image comes into view
+            });
+
+            images.forEach(img => {
+                imageObserver.observe(img);
+            });
+        }
+
+        function loadImage(img) {
+            const tempImg = new Image();
+            tempImg.onload = function() {
+                img.src = tempImg.src;
+                img.classList.remove('photo-skeleton');
+                img.classList.add('loaded');
+            };
+            tempImg.onerror = function() {
+                // Fallback for broken images
+                img.alt = 'Image not available';
+                img.classList.remove('photo-skeleton');
+                img.style.backgroundColor = '#f0f0f0';
+                img.style.display = 'flex';
+                img.style.alignItems = 'center';
+                img.style.justifyContent = 'center';
+                img.style.fontSize = '12px';
+                img.style.color = '#666';
+            };
+            tempImg.src = img.src;
+        }
+
+        // Initialize image loading when DOM is ready
+        document.addEventListener('DOMContentLoaded', initImageLoading);
+
+        // Preload critical images (teachers) for better UX
+        function preloadCriticalImages() {
+            const criticalImages = [
+                '{{ "/assets/images/Binghua.png" | relative_url }}',
+                '{{ "/assets/images/Zhouteng.png" | relative_url }}',
+                '{{ "/assets/images/Xiaofeng.png" | relative_url }}'
+            ];
+
+            criticalImages.forEach(src => {
+                const link = document.createElement('link');
+                link.rel = 'preload';
+                link.as = 'image';
+                link.href = src;
+                document.head.appendChild(link);
+            });
+        }
+
+        // Call preload for critical images
+        preloadCriticalImages();
     </script>
 
 </body>
 
 </html>
+
+<!-- 
+========== INSTRUCTIONS FOR FUTURE MODIFICATIONS ==========
+
+1. TO ADD A NEW TEACHER:
+   - Copy the teacher card template (commented out in the teachers section)
+   - Add the teacher's photo to /assets/images/ folder
+   - Update the image src, alt text, Chinese name, English name, expertise, and research focus
+   - Place the new card in the teachers grid
+
+2. TO ADD A NEW STUDENT:
+   - Copy the student card template (commented out in the student sections)
+   - Add the student's photo to /assets/images/ folder
+   - Update the image src, alt text, Chinese name, English name, and research focus
+   - Place the new card in the appropriate graduation year grid
+
+3. TO ADD A NEW GRADUATION YEAR:
+   - Copy the graduation year template (commented out at the end of students section)
+   - Update the year (e.g., 2026级)
+   - Add student cards using the student template
+
+4. TO REMOVE A MEMBER:
+   - Simply delete the entire member card div block
+   - Optionally remove the photo from /assets/images/ folder
+
+5. TO UPDATE RESEARCH FOCUS:
+   - Find the member's card and update the text in the research focus paragraph
+
+6. IMAGE REQUIREMENTS:
+   - Teacher photos: Recommended size 150px width
+   - Student photos: Recommended size 125px width
+   - Supported formats: .png, .jpg, .jpeg
+   - Place all images in /assets/images/ folder
+
+7. STYLING MODIFICATIONS:
+   - Member-specific styles are in the <style> section at the top
+   - General page styles should be in the main style.css file
+   - Use the existing CSS classes for consistency
+
+========== END OF INSTRUCTIONS ==========
+-->
