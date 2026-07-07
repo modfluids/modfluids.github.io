@@ -23,7 +23,7 @@ title: member
         /* Team Member Cards */
         .member-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
             gap: 30px;
             margin: 30px 0;
         }
@@ -36,6 +36,7 @@ title: member
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
             border: 2px solid transparent;
+            max-width: 320px;
         }
 
         .member-card:hover {
@@ -440,7 +441,7 @@ title: member
             <div class="member-grid">
                 <div class="member-card">
                     <img class="member-photo photo-skeleton" 
-                        
+                        src="{{ '/assets/images/Ziheng.png' | relative_url }}" 
                         alt="Ziheng Jiang" 
                         loading="lazy" />
                     <h5>蒋梓恒</h5>
